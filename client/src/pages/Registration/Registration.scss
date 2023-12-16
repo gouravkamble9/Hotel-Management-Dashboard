@@ -1,0 +1,113 @@
+@import '../../css-config/mixins.scss';
+
+.register-sec{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(187, 229, 235);
+
+    .register-container{
+        width: 70%;
+        height: 70%;
+        display:flex ;
+        background-color: white;
+        border-radius: 10px;
+
+        @include sm{
+            width: 80%;
+            height: 550px;
+        }
+        
+
+        .register-left{
+            width: 50%;
+            height: 100%;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+
+            @include sm{
+                width: 100%;
+                height: 100%;
+                padding:2rem 0rem;
+            }
+
+            .login{
+                width: 100%;
+                text-align: center;
+            }
+
+            .icon{
+                width: 60px;
+                height: 60px;;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            .login-form{
+                width: 100%;
+                padding:0 2rem;
+                .input-wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 10px;
+                    background-color: #f2f2f2;
+                    padding:5px 0 0 5px;
+                    border-radius: 8px;
+
+                    input{
+                        border: none;
+                        outline: none;
+                        padding: 0.5rem;
+                        background: transparent;
+
+                    }
+                }
+                button{
+                    width: 50%;
+                    padding: 0.5rem;
+                    font-weight: 600;
+                    background-color: #ffa972;
+                    border: none;
+                    border-radius: 8px;
+                    color: white;
+                    cursor: pointer;
+                    margin-top: 10px;
+                    transform: translateX(50%);
+                }
+            }
+
+            
+        }
+
+        .register-right{
+            width: 50%;
+            height: 100%;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffa972;
+            border-radius: 10px 0 0 10px;
+
+            @include sm{
+                display: none;
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,76 @@
+@import '../../css-config/mixins.scss';
+
+.sidebar{
+    width: 6%;
+    background-color: white;
+    padding: 1rem;
+
+    @include sm{
+        display: none;
+        &.active{
+            display: block;
+            position: absolute;
+            width: 30%;
+            height: 100vh;
+            // display: none;
+        }
+    }
+    .side-container{
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .up-sec{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+
+            .logo{
+                width: 35px;
+                height: 35px;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            .menu{
+                text-align: center;
+
+                li{
+                    list-style: none;
+                    margin-top: 15px;
+                    
+                    
+
+                    svg{
+                        font-size: 1.5rem;
+                        color: gray;
+                        cursor: pointer;
+                    }
+                }
+                .highlight{
+                    svg{
+                        font-size: 1.8rem;
+                        color: var(--textBold);
+                    }
+                }
+            }
+        }
+
+        .down-sec{
+
+            .expand{
+
+                svg{
+                    font-size: 1.5rem;
+                    color: gray;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}

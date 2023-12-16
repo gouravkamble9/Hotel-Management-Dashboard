@@ -1,0 +1,73 @@
+@import '../../css-config/mixins.scss';
+
+.dashboard{
+    height: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 25% 20% 25% 27.8%;
+    grid-template-rows: 15% 20% 25% 36%;
+    background-color: #eff1f4;
+    color: #444;
+
+    @include sm{
+        display: flex;
+        // background-color: red;
+        flex-direction: column;
+    }
+
+    .boxa{
+        // background-color: #444;
+        // color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        // font-size: 150%;
+    }
+
+    .boxb{
+        // background-color: #4;
+        border-radius: 5px;
+        padding:0 0 20px 0;
+        // font-size: 150%;
+    }
+
+    .boxc{
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        // font-size: 150%;
+
+        @include sm{
+            height: 400px;
+        }
+    }
+
+    .boxd{
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        margin-left: 15px;
+        // font-size: 150%;
+
+        @include sm{
+            margin-left: 0;
+            height: 500px;
+        }
+    }
+
+    .a{
+        grid-column: 1/5;
+        grid-row: 1;
+    }
+    .b{
+        grid-column: 1/4;
+        grid-row: 2;
+    }
+    .c{
+        grid-column: 1/4;
+        grid-row: 3/5;
+    }
+    .d{
+        grid-column: 4/5;
+        grid-row: 2/5;
+    }
+}

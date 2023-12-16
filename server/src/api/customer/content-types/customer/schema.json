@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "singularName": "customer",
+    "pluralName": "customers",
+    "displayName": "customer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "booking_id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "booking_status": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "singularName": "booking",
+    "pluralName": "bookings",
+    "displayName": "booking",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "booking_id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "integer"
+    },
+    "room_type": {
+      "type": "string"
+    },
+    "checkin": {
+      "type": "date"
+    },
+    "checkout": {
+      "type": "date"
+    },
+    "payment": {
+      "type": "string"
+    }
+  }
+}

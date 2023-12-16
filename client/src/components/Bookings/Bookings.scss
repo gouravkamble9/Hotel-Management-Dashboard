@@ -1,0 +1,69 @@
+.bookingContent{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        display: none; 
+      }
+
+    table{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        // overflow: auto;
+
+        tbody{
+            height: 100%;
+            // overflow: scroll;
+            
+            tr{
+                td{
+                    
+                    padding: 10px;
+                    .user-prof{
+                        // width: 100%;
+                        // border: 1px solid;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 10px;
+                        .img-con{
+                            // border: 1px solid;
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            background-color: white;
+                            overflow: hidden;
+        
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .name{
+                            // border: 1px solid;
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: flex-start;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .pay{
+                background-color: var(--color2);
+                border-radius: 15px;
+                padding: 2px;
+                color: white;
+
+                &.paid{
+                    background-color: var(--color1);
+                }
+            }
+        }
+    }
+}

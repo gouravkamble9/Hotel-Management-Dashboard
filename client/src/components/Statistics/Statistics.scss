@@ -1,0 +1,14 @@
+@import '../../css-config/mixins.scss';
+.stat-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include sm{
+        justify-content:flex-start;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,127 @@
+.task-card{
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+
+
+    .task-left{
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        
+
+        .task-prof{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-top: 20px;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+
+    }
+
+    .task-right{
+        width: 80%;
+        .area{
+        
+            display: flex;
+            justify-content: space-between;
+    
+            .area-block{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                border-radius: 10px;
+                padding:0 6px;
+                color: white;
+
+                &.office-color{
+                    background-color: var(--color3);
+                }
+
+                &.kitchen-color{
+                    background-color: var(--color2);
+                }
+
+                &.guest-room-color{
+                    background-color: var(--color1);
+                }
+            }
+    
+            .time{
+                font-size: 12px;
+                font-weight: 500;
+                color: var(--textLight);
+            }
+        }
+    
+        .task-assigned{
+            display: flex;
+            gap: 2px;
+            margin-top: 5px;
+            .compl-new{
+                color: var(--textLight);
+            }
+            .name{
+                font-weight: 700;
+                color: var(--textBold);
+            }
+    
+            .task-id{
+                font-weight: 800;
+                color: var(--textBold);
+            }
+        }
+    
+        .task-name{
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid var(--textLight);
+            border-radius: 10px;
+            gap: 5px;
+            margin-top: 5px;
+            
+    
+            .task{
+                font-weight: 600;
+                color: var(--textBold);
+            }
+    
+            .status{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                padding: 2px 5px;
+                font-weight: 400;
+                font-size: 13px;
+                text-align: center;
+                width: 50%;
+                border-radius: 15px;
+                
+
+                &.completed{
+                    color: var(--color1);
+                    background-color: rgb(206, 244, 231);
+                }
+
+                &.new{
+                    color: var(--color2);
+                    background-color: rgb(249, 228, 197);
+                }
+            }
+
+            
+            
+        }
+    }
+}
