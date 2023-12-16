@@ -38,7 +38,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/hotel-management-dashboard.git
+   git clone https://github.com/gouravkamble9/Hotel-Management-Dashboard.git
    
 ### Frontend Setup
 1. Navigate to the client directory:
