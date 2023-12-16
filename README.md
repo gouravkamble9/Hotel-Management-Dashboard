@@ -73,3 +73,20 @@ Ensure you have the following installed:
 
    ```bash
      npm run dev
+### Screenshots
+
+Login
+
+![login](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/d79e8ffa-2eb1-4345-9317-8af00bd1e3bd)
+
+Register
+
+![register](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/ac6d9e4f-bbf3-4859-8b01-33562ab635db)
+
+Dashboard
+
+![dashboard](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/7daf0aab-d3c6-4605-b61e-8ab05fcb8a35)
+
+Add Task
+
+![task](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/63598eb4-2e5d-453b-8201-184574538ed3)
