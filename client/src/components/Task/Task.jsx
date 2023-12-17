@@ -46,7 +46,7 @@ const Task = () => {
 
   return (
     <>
-    <GoHome onClick={handleClick}/>
+    <GoHome onClick={handleClick} className="home-icon"/>
     <div className="task-form-container">
       <div className="form-container">
         <h2>Assign Task</h2>
