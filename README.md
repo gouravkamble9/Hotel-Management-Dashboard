@@ -90,3 +90,8 @@ Dashboard
 Add Task
 
 ![task](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/63598eb4-2e5d-453b-8201-184574538ed3)
+
+Mobile
+
+![mobile-screen](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/e646fbbe-c064-43eb-8e00-ba0173ede0ea)
+
