@@ -25,7 +25,6 @@ const Registration = () => {
         const res=await req.json()
 
         if(res.error){
-          console.log(res.error)
             SetMessage(res.error.message)
             return
         }
@@ -79,7 +78,7 @@ const Registration = () => {
             </form>
           </div>
 
-          
+          <span className='alert'>{message}</span>
            
           <Link to='/' style={{textDecoration:"none",color:"black"}}>Login</Link>
           

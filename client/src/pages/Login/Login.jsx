@@ -64,6 +64,7 @@ const Login = () => {
               <button type="submit">Login</button>
             </form>
           </div>
+          <span className="alert">{message}</span>
           <Link
             to="/registration"
             style={{ textDecoration: "none", color: "black" }}
