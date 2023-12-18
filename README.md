@@ -44,7 +44,7 @@ Ensure you have the following installed:
 1. Navigate to the client directory:
    
    ```bash
-   cd hotel-management-dashboard/client
+   cd Hotel-Management-Dashboard/client
    
 3. Install frontend dependencies:
 
@@ -56,7 +56,7 @@ Ensure you have the following installed:
 1. Navigate to the server directory:
 
    ```bash
-   cd hotel-management-dashboard/server
+   cd Hotel-Management-Dashboard/server
    
 3. Install backend dependencies:
 
