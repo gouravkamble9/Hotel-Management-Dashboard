@@ -44,7 +44,7 @@ Ensure you have the following installed:
 1. Navigate to the client directory:
    
    ```bash
-   cd hotel-management-dashboard/client
+   cd Hotel-Management-Dashboard/client
    
 3. Install frontend dependencies:
 
@@ -56,7 +56,7 @@ Ensure you have the following installed:
 1. Navigate to the server directory:
 
    ```bash
-   cd hotel-management-dashboard/server
+   cd Hotel-Management-Dashboard/server
    
 3. Install backend dependencies:
 
@@ -90,3 +90,8 @@ Dashboard
 Add Task
 
 ![task](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/63598eb4-2e5d-453b-8201-184574538ed3)
+
+Mobile
+
+![mobile-screen](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/e646fbbe-c064-43eb-8e00-ba0173ede0ea)
+
