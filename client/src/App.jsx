@@ -8,7 +8,6 @@ import { isAuthenticated } from "./utils/Auth";
 import './App.css'
 import Sidebar from "./components/Sidebar/Sidebar";
 import Reports from "./components/Reports/Reports";
-import './App.css'
 import AppContext from "./utils/context";
 import Favourite from "./components/favourite/favourite";
 import Schedule from "./components/Schedule/Schedule";
