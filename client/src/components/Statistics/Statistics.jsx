@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect} from "react";
 import StatisticsCard from "./StatisticsCard/StatisticsCard";
 import "./Statistics.scss";
 import { FaBed } from "react-icons/fa";
