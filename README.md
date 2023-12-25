@@ -79,7 +79,7 @@ Login
 
 ![login](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/d79e8ffa-2eb1-4345-9317-8af00bd1e3bd)
 
-Register
+Registration
 
 ![register](https://github.com/gouravkamble9/Hotel-Management-Dashboard/assets/61933116/ac6d9e4f-bbf3-4859-8b01-33562ab635db)
 
