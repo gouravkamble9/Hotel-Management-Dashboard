@@ -15,7 +15,7 @@ This project comprises a frontend built using React and SCSS, while the backend 
 
 ## Features
 
-- **Authentication:** Users are required to log in to access the dashboard.
+- **Authentication:** Users are required to log in to access the dashboard.Only authenticated user can access dashboard.
 - **Dashboard Pages:**
   - Home Page:
     - User Info Section
